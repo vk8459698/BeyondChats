@@ -1,0 +1,59 @@
+@betagoten786 ➜ /workspaces/codespaces-blank $ python App.py
+=== Evaluation Results ===
+Turn: 14
+Relevance Score: 0.375
+Completeness Score: 1.0
+Hallucination Score: 0.333
+Factual Accuracy: 0.333
+Latency: 5.09ms
+Estimated Cost: $0.004801
+
+=== Batch Evaluation ===
+{
+  "total_evaluations": 6,
+  "average_relevance": 0.347,
+  "average_completeness": 0.833,
+  "average_hallucination_score": 0.639,
+  "average_factual_accuracy": 0.639,
+  "average_latency_ms": 1.28,
+  "total_estimated_cost": 0.028822,
+  "min_scores": {
+    "relevance": 0.1,
+    "completeness": 0.6,
+    "hallucination": 0.0,
+    "factual_accuracy": 0.0
+  },
+  "flagged_responses": [
+    {
+      "turn": 8,
+      "issue": "low_scores",
+      "scores": {
+        "relevance": 0.4,
+        "completeness": 0.7,
+        "hallucination": 0.0,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "turn": 14,
+      "issue": "low_scores",
+      "scores": {
+        "relevance": 0.375,
+        "completeness": 1.0,
+        "hallucination": 0.333,
+        "accuracy": 0.333
+      }
+    },
+    {
+      "turn": 18,
+      "issue": "low_scores",
+      "scores": {
+        "relevance": 0.5,
+        "completeness": 1.0,
+        "hallucination": 0.5,
+        "accuracy": 0.5
+      }
+    }
+  ]
+}
+@betagoten786 ➜ /workspaces/codespaces-blank $ 
