@@ -15,7 +15,7 @@ An efficient, scalable pipeline for evaluating AI chatbot responses in real-time
 
 1. Clone the repository:
 ```bash
-git clone [<repository-url>](https://github.com/vk8459698/BeyondChats/)
+git clone https://github.com/vk8459698/BeyondChats/
 ```
 
 2. Install required dependencies:
