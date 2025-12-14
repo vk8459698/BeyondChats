@@ -18,12 +18,7 @@ An efficient, scalable pipeline for evaluating AI chatbot responses in real-time
 git clone https://github.com/vk8459698/BeyondChats/
 ```
 
-2. Install required dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Place your input JSON files in the project directory:
+2. Place your input JSON files in the project directory:
    - `sample-chat-conversation-01.json`
    - `sample_context_vectors-01.json`
 
